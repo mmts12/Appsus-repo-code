@@ -1,0 +1,78 @@
+@import './basics/base.css';
+@import './basics/fonts.css';
+@import './basics/HomePage.css';
+@import './basics/about.css';
+@import './basics/MainNav.css';
+@import './basics/UserMsg.css';
+@import '../../apps/Keep/assets/css/KeepMain.css';
+@import '../../apps/Mail/assets/css/MailMain.css';
+body {
+  margin: 0;
+}
+
+/* HELPERS */
+
+.main-layout {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* grid-helpers */
+
+/* .grid {
+  display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    grid-template-rows: masonry;
+    grid-auto-flow: dense;
+} */
+
+.grid {
+  display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, 50px);
+    grid-template-rows: repeat(auto-fill, 50px);
+    grid-auto-flow: dense;
+}
+
+/* flex-helpers */
+
+.flex {
+  display: flex;
+}
+
+.flex.col {
+  flex-direction: column;
+}
+
+.inline-flex {
+  display: inline-flex;
+}
+
+.flex.align-center {
+  align-items: center;
+}
+
+.flex.space-between {
+  justify-content: space-between;
+}
+
+.flex.space-around {
+  justify-content: space-around;
+}
+
+.flex.center {
+  justify-content: center;
+}
+
+.flex.wrap {
+  flex-wrap: wrap;
+}
+
+/* list-helpers */
+
+.clean-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}

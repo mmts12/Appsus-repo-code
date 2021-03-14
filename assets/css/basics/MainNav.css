@@ -1,0 +1,83 @@
+.header-stam-leshnia-ahat{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 3;
+  background-color:#ef4c41;
+}
+
+
+.apps-header a {
+  /* color: rgb(43, 42, 42); */
+  color: white;
+}
+
+.apps-header .logo {
+  font-size: 3em;
+  font-weight: 400;
+  color: white;
+}
+
+.apps-header .logo span {
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.apps-header .menu {
+  position: relative;
+  padding: .4em;
+  border-radius: 50%;
+  color: white;
+  font-size: 2em;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.apps-header .menu:hover {
+color: rgb(37, 36, 36);}
+
+/* APPS CONTAINER */
+
+.app-container {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  z-index: 5;
+  /* transform: translate(121%, 60%); */
+  width: 200px;
+  height: 200px;
+  padding: .5em;
+  background-color: white;
+  border-radius: .4em;
+  box-shadow: 0 2px 4px 0 rgba(60, 64, 67, 0.302), 0 4px 12px 4px rgba(60, 64, 67, 0.149);
+  transition: .5s;
+}
+
+.app-container i {
+  font-size: 1em;
+  grid-row: span 2;
+  grid-column: span 2;
+  opacity: 0.4;
+  color: rgb(36, 35, 35);
+}
+
+.app-container span {
+  font-size: .5em;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  opacity: 0.4;
+  color: rgb(36, 35, 35);
+
+}
+
+.app-container i.active {
+  opacity: 1;
+  transition: .3s;
+}
+
+.app-container i.active:hover {
+  color: #ef4c41;
+}
+
+.app-container span.active {
+  opacity: 1;
+}

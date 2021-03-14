@@ -1,0 +1,81 @@
+/* EMAIL DETAILS */
+
+.email-details {
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding-top: 150px;
+}
+
+.email-details pre {
+  padding: 40px;
+  white-space: pre-wrap;
+  background-color: #f5f7f8;
+  font-size: 1.3rem;
+}
+
+.email-details-main-content {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.email-details h2,
+h3 {
+  font-weight: 400;
+}
+.email-details-actions {
+  display: flex;
+  justify-content: space-between;
+}
+.prev-next-btn {
+  color: gray;
+  margin-top: 20px;
+}
+.fa-arrow-left {
+  margin-right: 20px;
+}
+.fa-arrow-alt-circle-left {
+  margin-top: 20px;
+  font-size: 2em;
+  color: gray;
+}
+.fa-arrow-alt-circle-left:hover {
+  box-shadow: 1px 1px 8px 20px rgba(158, 158, 158, 0.83);
+  border-radius: 30px 30px 30px 30px;
+}
+.prev-next-btn:hover {
+  box-shadow: 1px 1px 8px 13px rgba(158, 158, 158, 0.83);
+  border-radius: 30px 30px 30px 30px;
+}
+.email-header-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.email-header-section i {
+  cursor: pointer;
+}
+.email-header-headline {
+  margin: 0px;
+  margin-top: 0px;
+}
+
+.trash-email-details,
+.fa-reply {
+  color: rgb(43, 42, 42);
+}
+.btns-actions-mail > *:not(:last-child) {
+  margin-inline-end: 15px;
+}
+
+.email-container {
+  background-color: #dfe8ea;
+  padding: 20px;
+  margin-top: 10px;
+}
+pre {
+  font-family: Helvetica, Arial, sans-serif;
+}

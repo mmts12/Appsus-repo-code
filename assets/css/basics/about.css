@@ -1,0 +1,64 @@
+.about-page {
+    text-align: center;
+    padding: 150px 2em;
+}
+
+.hero-section {
+    height: 90vh;
+}
+
+.about-page h1 {
+    margin-top: .5em;
+    margin-bottom: 2em;
+    font-size: 5em;
+    font-weight: 500;
+    color: #d93025;
+}
+
+/* TEAM MEMBERS */
+
+.team-section {
+    padding: 0 4em;
+}
+
+.member-card h1 {
+    margin-top: .5em;
+    margin-bottom: .5em;
+    font-size: 3em;
+    font-weight: 500;
+    color: #d93025;
+}
+
+.member-card {
+    max-width: 400px;
+}
+
+.member-card p {
+    align-self: center;
+    max-width: 350px;
+    text-align: justify;
+}
+
+.member-card img {
+    align-self: center;
+    width: 80%;
+}
+
+.about-page .hilla{
+    margin-bottom: 6em;
+}
+
+@media screen and (max-width: 1000px) {
+    .team-section {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .member-card {
+        max-width: 100%;
+        margin-bottom: 6em;
+    }
+
+    .tair img{
+        width: 67%;
+    }
+}

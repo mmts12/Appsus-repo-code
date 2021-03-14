@@ -1,0 +1,117 @@
+.keep-tools {
+    width: 100%;
+    opacity: 0;
+    transition: .3s;
+}
+
+.keep-tools>* {
+    padding: .5em;
+    border-radius: 50%;
+}
+
+.keep-tools>*:hover {
+    cursor: pointer;
+    background-color: lightgrey;
+}
+
+.keep-tools .colors-container {
+    position: absolute;
+    transform: translateY(110%);
+    width: fit-content;
+    padding: .2em;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302), 0 1px 3px 1px rgba(60, 64, 67, 0.149);
+    transition: .5s;
+}
+
+.note:hover .keep-tools {
+    opacity: 1;
+}
+
+/* EDIT NOTE */
+
+.tools-container .edit-note {
+    opacity: 0;
+    /* margin-top: .5em; */
+    transition: .5s;
+    z-index: 1;
+}
+
+.note:hover .edit-note {
+    opacity: 1;
+}
+
+.edit-note input {
+    flex-grow: 1;
+    margin-top: .5em;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(236, 234, 234);
+}
+
+.edit-note input:focus {
+    outline-style: none;
+}
+
+.btn-container>* {
+    margin-top: .3em;
+    flex-grow: 1;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 2px;
+    background-color: lightgrey;
+    cursor: pointer;
+}
+
+.btn-container>*:hover {
+    border: 1px solid grey;
+}
+
+.btn-container .save-btn {
+    margin-inline-end: .5em;
+}
+
+/* COLORS PALETTE */
+
+.btn-color {
+    width: 20px;
+    height: 20px;
+    margin: .2em;
+    border: 1px solid rgb(209, 208, 208);
+    border-radius: 50%;
+}
+
+.btn-color:hover {
+    border: 1px solid black;
+}
+
+.btn-color:focus {
+    outline: none;
+}
+
+.btn-color.white {
+    background-color: white;
+}
+
+.btn-color.yellow {
+    background-color: rgb(246, 221, 152);
+}
+
+.btn-color.pink {
+    background-color: pink;
+}
+
+.btn-color.green {
+    background-color: rgb(164, 255, 164);
+}
+
+.btn-color.blue {
+    background-color: rgb(174, 203, 250);
+}
+
+.btn-color.cyan {
+    background-color: rgb(167, 255, 235);
+}

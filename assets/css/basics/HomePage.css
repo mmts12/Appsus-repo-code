@@ -1,0 +1,84 @@
+.home-page {
+    text-align: center;
+    padding-top: 150px;
+}
+
+/* HERO */
+
+.hero-section {
+    height: 90vh;
+}
+
+.hero-section h1 {
+    margin-top: .5em;
+    margin-bottom: .5em;
+    font-size: 5em;
+    font-weight: 500;
+    color: #d93025;
+}
+
+.hero-section h2 {
+    font-size: 2.5em;
+    font-weight: 400;
+    margin-bottom: 2em;
+}
+
+.hero-section img {
+    width: 60%;
+    transform: translateX(5%);
+    object-fit: fill;
+}
+
+/* MAIL KEEP AND MORE */
+
+.mail-section h2, .keep-section h2, .more-section h2 {
+    font-size: 2.5em;
+    font-weight: 400;
+    color: #d93025;
+    text-decoration: underline;
+    margin-bottom: .3em;
+}
+
+.mail-section h3, .keep-section h3, .more-section h3 {
+    font-size: 1.5em;
+    font-weight: 400;
+    margin-bottom: 3em;
+}
+
+.mail-section img {
+    width: 50%;
+    object-fit: fill;
+    transform: translateX(20%);
+}
+
+/* MAIL */
+
+.mail-bgc {
+    background-color: whitesmoke;
+    padding: 2em 0 3em;
+    margin-bottom: 7em;
+}
+
+/* KEEP */
+
+.keep-section img {
+    width: 50%;
+    object-fit: fill;
+}
+
+/* NEW APPS */
+.more-bgc {
+    background-color: whitesmoke;
+    padding: 2em 0 3em;
+    margin-bottom: 7em;
+}
+
+.more-section img {
+    width: 50%;
+    object-fit: fill;
+    background-color: transparent;
+}
+
+
+
+

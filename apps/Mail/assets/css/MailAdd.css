@@ -1,0 +1,63 @@
+/* MODAL ADD*/
+
+.email-add-section {
+  position: fixed;
+  bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(242, 245, 245, 0.8);
+  color: black;
+  width: 60vw;
+}
+
+.new-email-header {
+  background-color: #444446;
+  color: white;
+  padding: 10px;
+  border-top-left-radius: 10px 10px;
+  border-top-right-radius: 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  /* border-radius: 20px; */
+}
+
+.new-email-main-content {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+  border: 1px solid #ded9d9;
+  border-top: none;
+  border-radius: 0 0 10px 10px;
+}
+
+.email-add-section textarea {
+  margin-top: 10px;
+  border: 0;
+  resize: none;
+}
+
+.email-add-section input {
+  width: 96%;
+  padding: 10px;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 0.5px solid black;
+}
+
+.new-email-main-content button {
+  padding: 10px;
+  margin: 10px;
+  background-color: #4285f4;
+  color: white;
+  outline: 0;
+  border: none;
+}
+
+.close-new-email-btn {
+  margin: 0;
+  color: white;
+  background: none;
+  border: 0;
+}

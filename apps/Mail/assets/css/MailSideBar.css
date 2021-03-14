@@ -1,0 +1,60 @@
+/* SIDE BAR  */
+
+.email-side-bar {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding-left: 1.5em;
+}
+
+.email-side-bar .btn-compose {
+  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302),
+    0 1px 3px 1px rgba(60, 64, 67, 0.149);
+  letter-spacing: 0.25px;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 24px;
+  color: #3c4043;
+  display: inline-flex;
+  font-weight: 500;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  height: 48px;
+  min-width: 56px;
+  overflow: hidden;
+  width: 150px;
+  padding: 0.2em;
+}
+
+.email-side-bar .btn-compose::before {
+  background-image: url(https://www.gstatic.com/images/icons/material/colored_icons/1x/create_32dp.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 32px;
+  content: '';
+  display: block;
+  height: 48px;
+  min-width: 56px;
+}
+
+.email-side-bar .btn-compose:hover {
+  cursor: pointer;
+  box-shadow: 0 1px 3px 0 rgba(60, 64, 67, 0.302),
+    0 4px 8px 3px rgba(60, 64, 67, 0.149);
+  background-color: #fafafb;
+}
+
+.menu-list > * {
+  margin: 0.3em 0;
+  padding: 0.5em 1.5em;
+  cursor: pointer;
+  width: 100px;
+}
+
+.menu-list > *:hover {
+  background-color: #ded9d9;
+  border-radius: 0 50px 50px 0;
+}
+
+.menu-list li i {
+  margin-inline-end: 1em;
+}

@@ -1,0 +1,72 @@
+.keep-app{
+    padding-top: 150px;
+}
+
+.notes-container {
+    column-count: 4;
+    column-gap: 1.5em;
+    margin: 0 auto 2em;
+    vertical-align: baseline;
+}
+
+.notes-container .note {
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius: .2em;
+    margin: 1em;
+    padding: 1em;
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302), 0 1px 3px 1px rgba(60, 64, 67, 0.149);
+    transition: .5s;
+}
+
+.notes-container .note:hover {
+    box-shadow: 0 8px 12px 0 rgba(60, 64, 67, 0.302), 0 4px 8px 4px rgba(60, 64, 67, 0.149);
+}
+
+.text-card {
+    text-align: center;
+}
+
+.todo-card li {
+    border-bottom: 1px solid grey;
+    padding: .5em 1em;
+    cursor: pointer;
+}
+
+.todo-card li.checked {
+    text-decoration: line-through;
+}
+
+.img-card {
+    text-align: center;
+}
+
+.video-card {
+    text-align: center;
+}
+
+.video-card iframe {
+    width: 100%;
+    border-radius: 0.2em;
+}
+
+@media screen and (max-width: 900px) {
+    .notes-container {
+        column-count: 3;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .notes-container {
+        column-count: 2;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .notes-container {
+        column-count: 1;
+    }
+    .notes-container .note {
+        width: 85%;
+    }
+}
